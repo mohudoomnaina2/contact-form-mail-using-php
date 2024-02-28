@@ -1,5 +1,5 @@
 <?php
-$to      = 'mohudoomnaina2@gmail.com';
+$to      = 'test@gmail.com';
 $subject = 'the subject';
 $message = 'hello';
 $headers = array(

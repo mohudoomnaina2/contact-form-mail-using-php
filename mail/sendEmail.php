@@ -310,9 +310,9 @@
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         
         // More headers
-        $headers .= 'From: <editor@irjems.org>' . "\r\n";
+        $headers .= 'From: <editor@gmail.com>' . "\r\n";
         $subject="Subscribe for Newsletter";
-        if (mail("irjemsjournal@gmail.com",$subject,$body,$headers)) {
+        if (mail("toemail@gmail.com",$subject,$body,$headers)) {
             echo "<script LANGUAGE='JavaScript'>
 		    swal({
                 title: 'Successfully Sent Your Message.',
